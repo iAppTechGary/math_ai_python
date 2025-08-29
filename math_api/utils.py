@@ -1,0 +1,1 @@
+from .models import UserSearchdef log_user_search(user, input_type, prompt, response):    try:        UserSearch.objects.create(            user=user,            input_type=input_type,            prompt=prompt[:10000],            response=response[:10000]        )    except Exception as e:        print(f"[LogError] Could not log user search: {e}")

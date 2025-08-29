@@ -1,0 +1,335 @@
+<html>
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    {% load static %}
+      <style type="text/css">
+          * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        ol {
+            margin: 0;
+            padding: 0
+        }
+
+        table td,
+        table th {
+            padding: 0
+        }
+
+        .c0 {
+            border-right-style: solid;
+            padding-top: 0pt;
+            border-top-width: 0pt;
+            border-right-width: 0pt;
+            padding-left: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.75;
+            border-left-width: 0pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 0pt;
+            border-bottom-style: solid;
+            orphans: 2;
+            widows: 2;
+            text-align: left;
+            padding-right: 0pt
+        }
+
+        .c1 {
+            color: #434343;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c2 {
+            color: #ffffff;
+            font-weight: 700;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 10.5pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c4 {
+            background-color: #ffffff;
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.5;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c6 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c3 {
+            background-color: #ffffff;
+            /* max-width: 468pt; */
+            padding: 60pt
+        }
+
+        .c5 {
+            height: 11pt
+        }
+
+        .title {
+            padding-top: 0pt;
+            color: #000000;
+            font-size: 26pt;
+            padding-bottom: 3pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .subtitle {
+            padding-top: 0pt;
+            color: #666666;
+            font-size: 15pt;
+            padding-bottom: 16pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+        ul {
+    padding-left: 30px;
+}
+        li {
+            color: #434343;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
+
+        p {
+            margin: 0;
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
+
+        h1 {
+            padding-top: 20pt;
+            color: #000000;
+            font-size: 20pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h2 {
+            padding-top: 18pt;
+            color: #000000;
+            font-size: 16pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h3 {
+            padding-top: 16pt;
+            color: #434343;
+            font-size: 14pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        /* h3 {
+            padding-top: 14pt;
+            color: #666666;
+            font-size: 14pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        } */
+
+        h5 {
+            padding-top: 12pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 12pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .watermark_bg {
+            background-color: #eef1f6;
+            padding: 60px;
+            text-align: center;
+        }
+
+        .watermark_bg h3 {
+            color: #000000;
+            margin-bottom: 9px;
+            font-size: 40px;
+            margin-top: 0;
+            text-align: center;
+        }
+
+        .watermark_bg p {
+            margin-bottom: 0px;
+            color: #9391b9;
+            font-weight: 300;
+        }
+        .watermark_logo img{
+			width: 100px;
+			}
+    </style>
+</head>
+
+<body>
+<div class="watermark_bg">
+    <div class="watermark_logo"> <img src="/media/uploads/logo.png" alt="" /></div>
+    <h3>Privacy Policy</h3>
+</div>
+<div class="c3 doc-content">
+    <p class="c0"><span class="c1">
+        <h3><b>TechGear INC – Math AI Privacy Policy</b></h3>
+    </span></p>
+    <p class="c0"><span class="c1"><b>Effective Date:</b> July 9, 2025</span></p>
+    <p class="c0"><span class="c1">Thank you for using Math AI by TechGear INC ("Math AI," "we," "us," or "our"). This Privacy Policy explains how we collect, use, disclose, and protect your information when you use our App.</span></p>
+
+   <h3>1. Information We Collect</h3>
+    <p class="c0">When you use Math AI, we may collect the following types of information:</p>
+    <ul>
+        <li class="c0">
+            <strong>Usage Information:</strong>
+            <span class="c1">Details about your interactions with the app, including features used, frequency, and duration of activities.</span>
+        </li>
+        <li class="c0">
+            <strong>Device Information:</strong>
+            <span class="c1">Information such as your device model, operating system version, unique device identifiers (e.g., Firebase Instance IDs), and network details.</span>
+        </li>
+        <li class="c0">
+            <span class="c1">We do not require login or personal details from users.</span>
+        </li>
+        <li class="c0">
+            <span class="c1">We do not collect or store any personal information on our servers.</span>
+        </li>
+        <li class="c0">
+            <span class="c1">The app may temporarily access the device’s camera to capture math problems, but this data is used only to process the request and is not stored permanently.</span>
+        </li>
+    </ul>
+    
+    <h3>2. How We Use Your Information</h3>
+    <p class="c0">We may use the information we collect for the following purposes:</p>
+    <ul>
+        <li class="c0">
+            <span class="c1">To provide, maintain, and improve the app.</span>
+        </li>
+        <li class="c0">
+            <span class="c1">To personalize the user experience.</span>
+        </li>
+        <li class="c0">
+            <span class="c1">To personalize the user experience.</span>
+        </li>
+        <li class="c0">
+            <span class="c1">To respond to inquiries and provide customer support.</span>
+        </li>
+        <li class="c0">
+            <span class="c1"> To measure advertising effectiveness (via tools like Firebase Analytics and Facebook Ads Manager).</span>
+        </li>
+        <li class="c0">
+            <span class="c1"> To detect, prevent, and address security or technical issues.</span>
+        </li>
+        <li class="c0">
+            <span class="c1">To comply with applicable laws and regulations.</span>
+        </li>
+    </ul>
+
+    <p class="c0"><span class="c1"><h3><b>3. Deletion Policy</b></h3></span></p>
+    <p class="c0"><span class="c1">All user data, including captured images and app-generated content, is stored locally on your device. When you delete the app, all locally stored data is permanently erased.</span></p>
+
+    <p class="c0"><span class="c1"><h3><b>4. Use of AI and OpenAI Services</b></h3></span></p>
+    <p class="c0"><span class="c1">The app utilizes OpenAI APIs to process and solve math-related queries. Captured images or user inputs may be temporarily sent to OpenAI servers for analysis. This data is stored only temporarily and is subject to OpenAI’s Data Usage Policy.</span></p>
+    <p class="c0"><span class="c1">Learn more: <a href="https://openai.com/policies/api-data-usage-policies">OpenAI API Data Usage Policy</a></span></p>
+
+    <p class="c0"><span class="c1"><h3><b>5. Children’s Privacy</b></h3></span></p>
+    <p class="c0"><span class="c1">This app is not intended for children under the age of 13. We do not knowingly collect data from children.</span></p>
+
+    <h3>6. Support & Analytics</h3>
+    <ul>
+        <li class="c0">
+            <strong>Customer Support:</strong>
+            <span class="c1">Users can contact us via email for queries or suggestions.</span>
+        </li>
+        <li class="c0">
+            <strong>Analytics:</strong>
+            <span class="c1">We use Firebase and other analytics tools to enhance app performance and user experience.</span>
+        </li>
+        <li class="c0">
+            <strong>Third-Party APIs:</strong>
+            <span class="c1">Our app integrates third-party APIs for additional functionality.</span>
+        </li>
+    </ul>
+
+    <p class="c0"><span class="c1"><h3><b>7. Changes to This Privacy Policy</b></h3></span></p>
+    <p class="c0"><span class="c1">We may update this Privacy Policy periodically. Any material changes will be posted within the app. The "Effective Date" at the top indicates when the policy was last revised.</span></p>
+
+    <p class="c0"><span class="c1"><h3><b>8. Contact Us</b></h3></span></p>
+    <p class="c0"><span class="c1">If you have any questions or concerns, reach out to us at:</span></p>
+    <p class="c0"><span class="c1">Email: appledev650@gmail.com</span></p>
+    <p class="c0"><span class="c1">Mailing Address: 4111 Reedland Circle, San Ramon, CA 94582</span></p>
+
+    <p class="c0"><span class="c1">Thank you for using Math AI by TechGear INC!</span></p>
+</div>
+
+
+</body>
+
+</html>

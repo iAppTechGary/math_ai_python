@@ -1,0 +1,320 @@
+<html>
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    {% load static %}
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        ol {
+            margin: 0;
+            padding: 0
+        }
+
+        table td,
+        table th {
+            padding: 0
+        }
+
+        .c0 {
+            border-right-style: solid;
+            padding-top: 0pt;
+            border-top-width: 0pt;
+            border-right-width: 0pt;
+            padding-left: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.75;
+            border-left-width: 0pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 0pt;
+            border-bottom-style: solid;
+            orphans: 2;
+            widows: 2;
+            text-align: left;
+            padding-right: 0pt
+        }
+
+        .c1 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Arial";
+            font-style: normal;
+            margin-bottom: 10px;
+            line-height: 23px;
+        }
+
+        .c2 {
+            color: #ffffff;
+            font-weight: 700;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 10.5pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c4 {
+            background-color: #ffffff;
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.5;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c6 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c3 {
+            background-color: #ffffff;
+            /* max-width: 468pt; */
+            padding: 60pt
+        }
+
+        .c5 {
+            height: 11pt
+        }
+
+        .title {
+            padding-top: 0pt;
+            color: #000000;
+            font-size: 26pt;
+            padding-bottom: 3pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .subtitle {
+            padding-top: 0pt;
+            color: #666666;
+            font-size: 15pt;
+            padding-bottom: 16pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        li {
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
+
+        p {
+            margin: 0;
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
+
+        h1 {
+            padding-top: 20pt;
+            color: #000000;
+            font-size: 20pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h2 {
+            padding-top: 18pt;
+            color: #000000;
+            font-size: 16pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h3 {
+            padding-top: 16pt;
+            color: #434343;
+            font-size: 14pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h4 {
+            padding-top: 14pt;
+            color: #666666;
+            font-size: 12pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h5 {
+            padding-top: 12pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 12pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .watermark_bg {
+            background-color: #eef1f6;
+            padding: 60px;
+            text-align: center;
+        }
+
+        .watermark_bg h4 {
+            color: #000000;
+            margin-bottom: 9px;
+            font-size: 40px;
+            margin-top: 0;
+            text-align: center;
+        }
+
+        .watermark_bg p {
+            margin-bottom: 0px;
+            color: #9391b9;
+            font-weight: 300;
+        }
+		.watermark_logo img{
+			width: 100px;
+			}
+    </style>
+</head>
+
+<body>
+    <div class="watermark_bg">
+        <div class="watermark_logo"><img src="/media/uploads/logo.png" alt="Logo" /></div>
+        <h4>Terms & Conditions</h4>
+    </div>
+    <div class="c3 doc-content">
+        <div class="c0"><span class="c1">
+                <h3><b>TechGear INC – Math AI Terms & Conditions</b></h3>
+            </span></div>
+        <div class="c0"><span class="c1">These Terms & Conditions ("Terms") govern your use of Math AI by TechGear INC
+                ("Math AI", "we", "us", or "our"). By using the app, you agree to be bound by these Terms. If you do not
+                agree to these Terms, please do not use the app.</span></div>
+
+        <h3>1. License</h3>
+        <p class="c1">Math AI grants you a limited, non-exclusive, non-transferable, revocable license to use the app
+            solely for your personal, non-commercial use. You may not modify, adapt, translate, reverse-engineer,
+            disassemble, or create derivative works based on the app.</p>
+
+        <h3>2. User Content</h3>
+        <p class="c1">You may have the opportunity to submit feedback, suggestions, or other content to Math AI ("User
+            Content"). By submitting such content, you grant Math AI a worldwide, perpetual, irrevocable, royalty-free
+            license to use, reproduce, modify, adapt, publish, translate, distribute, and display the User Content in
+            connection with the operation of the app and Math AI's business.</p>
+
+        <h3>3. Privacy</h3>
+        <p class="c1">Your use of the app is subject to Math AI’s Privacy Policy, which is incorporated by reference
+            into these Terms. Please review the Privacy Policy to understand how Math AI collects, uses, and shares your
+            information.</p>
+
+        <h3>4. Analytics and Advertising</h3>
+        <p class="c1">Math AI may use Firebase Analytics and Facebook Ads Manager to collect analytics data and serve
+            advertisements within the app. By using the app, you consent to the collection and use of your information
+            as described in the Privacy Policy.</p>
+
+        <h3>5. Intellectual Property</h3>
+        <p class="c1">The app and its content—including but not limited to text, graphics, logos, and images—are the
+            property of TechGear INC or its licensors and are protected by copyright, trademark, and other intellectual
+            property laws. You may not use, copy, reproduce, modify, distribute, or display any part of the app without
+            prior written consent.</p>
+
+        <h3>6. Termination</h3>
+        <p class="c1">Math AI may terminate or suspend your access to the app at any time, without notice, for any
+            reason, including violation of these Terms or behavior deemed harmful to the app or its users.</p>
+
+        <h3>7. Disclaimer of Warranties</h3>
+        <p class="c1">The app is provided "as is" and "as available" without warranties of any kind, either express or
+            implied. TechGear INC disclaims all warranties, including but not limited to implied warranties of
+            merchantability, fitness for a particular purpose, and non-infringement.</p>
+        <p class="c1">This app is for informational and entertainment purposes only and does not provide medical advice,
+            diagnosis, or treatment. All content, including AI-generated answers, is intended for general educational
+            support only. Always consult a qualified professional before making critical academic or life decisions.</p>
+        <p class="c1">This app may include user-generated or AI-generated content. TechGear INC does not endorse or
+            promote violence, hate speech, self-harm, illegal activities, or explicit content. Users must not use this
+            app to generate or spread harmful or dangerous content.</p>
+
+        <h3>8. Limitation of Liability</h3>
+        <p class="c1">In no event shall TechGear INC be liable for any indirect, incidental, special, consequential, or
+            punitive damages arising from your use of the app, even if advised of such possibility. In no event shall
+            TechGear INC’s total liability exceed the amount paid by you, if any.</p>
+
+        <h3>9. User Responsibility</h3>
+        <p class="c1">You agree not to misuse the app for illegal, harmful, or abusive purposes. You are solely
+            responsible for how you interpret and apply any output provided by the app.</p>
+
+        <h3>10. AI Limitations</h3>
+        <p class="c1">The app’s AI-generated results may not always be accurate or complete. We recommend independently
+            verifying answers, especially in academic or professional contexts.</p>
+
+        <h3>11. Governing Law</h3>
+        <p class="c1">These Terms shall be governed by and construed in accordance with the laws of the State of
+            California, without regard to its conflict of laws principles.</p>
+
+        <h3>12. Contact Us</h3>
+        <p class="c1">If you have any questions or concerns about these Terms, contact us at:</p>
+        <p class="c1">Email: appledev650@gmail.com<br>Mailing Address: 4111 Reedland Circle, San Ramon, CA 94582</p>
+
+        <h3>13. Entire Agreement</h3>
+        <p class="c1">These Terms constitute the entire agreement between you and Math AI regarding use of the app and
+            supersede any prior agreements related to the same.</p>
+
+        <p class="c1">Thank you for using Math AI by TechGear INC.</p>
+    </div>
+</body>
+
+</html>
